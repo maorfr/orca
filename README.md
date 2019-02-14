@@ -29,7 +29,7 @@ Download the latest release from the [Releases page](https://github.com/maorfr/o
 ### From source
 
 ```
-mkdir -p $GOPATH/src/github.com/nuvo && cd $_
+mkdir -p $GOPATH/src/github.com/maorfr && cd $_
 git clone https://github.com/maorfr/orca.git && cd orca
 make
 ```
