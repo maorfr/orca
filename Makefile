@@ -27,7 +27,7 @@ build: fmt vet
 # Build orca docker image
 docker: build
 	cp bin/orca orca
-	docker build -t nuvo/orca:latest .
+	docker build -t maorfr/orca:latest .
 	rm orca
 
 # Push will only happen in travis ci
@@ -36,7 +36,7 @@ ifdef TRAVIS
 ifdef DOCKER_USER
 ifdef DOCKER_PASSWORD
 	docker login -u $(DOCKER_USER) -p $(DOCKER_PASSWORD)
-	docker push nuvo/orca:latest
+	docker push maorfr/orca:latest
 endif
 endif
 endif
