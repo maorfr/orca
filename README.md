@@ -1,11 +1,11 @@
 <img src="/docs/img/logo.png" width="500px" alt="orca logo">
 
 
-[![Release](https://img.shields.io/github/release/nuvo/orca.svg)](https://github.com/maorfr/orca/releases)
-[![Travis branch](https://img.shields.io/travis/nuvo/orca/master.svg)](https://travis-ci.org/nuvo/ocra)
-[![Docker Pulls](https://img.shields.io/docker/pulls/nuvo/orca.svg)](https://hub.docker.com/r/nuvo/orca/)
+[![Release](https://img.shields.io/github/release/maorfr/orca.svg)](https://github.com/maorfr/orca/releases)
+[![Travis branch](https://img.shields.io/travis/maorfr/orca/master.svg)](https://travis-ci.org/maorfr/ocra)
+[![Docker Pulls](https://img.shields.io/docker/pulls/maorfr/orca.svg)](https://hub.docker.com/r/maorfr/orca/)
 [![Go Report Card](https://goreportcard.com/badge/github.com/maorfr/orca)](https://goreportcard.com/report/github.com/maorfr/orca)
-[![license](https://img.shields.io/github/license/nuvo/orca.svg)](https://github.com/maorfr/orca/blob/master/LICENSE)
+[![license](https://img.shields.io/github/license/maorfr/orca.svg)](https://github.com/maorfr/orca/blob/master/LICENSE)
 
 # Orca
 
@@ -24,7 +24,7 @@ Is is important to note that Orca is not intended to replace Helm, but rather to
 
 ### From a release
 
-Download the latest release from the [Releases page](https://github.com/maorfr/orca/releases) or use it in your CI\CD process with a [Docker image](https://hub.docker.com/r/nuvo/orca)
+Download the latest release from the [Releases page](https://github.com/maorfr/orca/releases) or use it in your CI\CD process with a [Docker image](https://hub.docker.com/r/maorfr/orca)
 
 ### From source
 
