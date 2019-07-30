@@ -3,7 +3,7 @@ FROM alpine:3.8
 ARG HELM_VERSION=v2.13.2
 ARG HELM_OS_ARCH=linux-amd64
 
-RUN apk --no-cache add ca-certificates git bash curl jq \
+RUN apk --no-cache add ca-certificates git bash curl jq colordiff \
   && wget -q https://storage.googleapis.com/kubernetes-helm/helm-${HELM_VERSION}-${HELM_OS_ARCH}.tar.gz \
   && tar -zxvf helm-${HELM_VERSION}-${HELM_OS_ARCH}.tar.gz ${HELM_OS_ARCH}/helm \
   && mv ${HELM_OS_ARCH}/helm /usr/local/bin/helm \
