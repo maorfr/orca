@@ -1,6 +1,6 @@
 FROM alpine:3.8
 
-ARG HELM_VERSION=v2.11.0
+ARG HELM_VERSION=v2.13.2
 ARG HELM_OS_ARCH=linux-amd64
 
 RUN apk --no-cache add ca-certificates git bash curl jq \
